@@ -1,0 +1,33 @@
+{
+  "name": "polymarket-copy-trading",
+  "version": "1.0.0",
+  "description": "功能完善的 Polymarket 跟单软件",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["polymarket", "copy-trading", "prediction-market", "web3"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0",
+    "axios": "^1.6.2",
+    "mongoose": "^8.0.3",
+    "winston": "^3.11.0",
+    "node-cron": "^3.0.3",
+    "socket.io": "^4.6.1",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
